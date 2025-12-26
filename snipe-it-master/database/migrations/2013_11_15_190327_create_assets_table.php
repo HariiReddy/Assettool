@@ -18,7 +18,7 @@ class CreateAssetsTable extends Migration
             $table->integer('model_id')->nullable();
             $table->string('serial')->nullable();
             $table->date('purchase_date')->nullable();
-            $table->decimal('purchase_cost', 8, 2)->nullable()
+            $table->decimal('purchase_cost', 8, 2)->nullable();
             $table->string('order_number')->nullable();
             $table->integer('assigned_to')->nullable();
             $table->text('notes')->nullable();
